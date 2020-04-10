@@ -85,7 +85,7 @@ app.get('/join_room', function (req, res) {
     }
     else if (req.query.role == "Interviewer") {
         if (!joinCode[req.query.code]) {
-            res.status(403).send('This Room Doesnt Exist');
+            res.status(403).send("This Room Doesn't Exist");
         }
         else {
             if (!usernames[req.query.code].find((data) => data.username == req.query.username)) {
@@ -99,7 +99,7 @@ app.get('/join_room', function (req, res) {
     }
     else if (req.query.role == "Candidate") {
         if (!joinCode[req.query.code]) {
-            res.status(403).send('This Room Doesnt Exist');
+            res.status(403).send("This Room Doesn't Exist");
         }
         else {
             if (candidateCount[req.query.code] >= 1) res.status(403).send('At Most 1 Candidate can enter 1 Room');
