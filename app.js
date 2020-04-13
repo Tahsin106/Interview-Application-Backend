@@ -20,7 +20,7 @@ const joinCode = {};
 
 io.on('connect', function (socket) {
 
-    // console.log('Connected '+socket.id);
+    console.log('Connected '+socket.id);
 
     socket.on('join', function (data) {
         socket.join(data.roomCode);
