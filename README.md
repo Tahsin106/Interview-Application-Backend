@@ -24,7 +24,7 @@ Also, make sure to have `git` available in your PATH, `npm` might need it (You c
 ## Installing the project
 
     $ git clone https://github.com/tahsintaran/Interview-Application-Backend.git
-    $ Go to project directory
+    $ cd project directory
     $ npm install
     
 ## Running the project
