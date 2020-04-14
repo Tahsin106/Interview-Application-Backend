@@ -1,5 +1,5 @@
 # Realtime-Interview-Application-Backend
-A realtime application for taking coding interviews online.
+A realtime web application for taking coding interviews online.
 
 ## Requirements
 
